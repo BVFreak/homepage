@@ -2,38 +2,31 @@
 <html>
 <head>
   <title>BVFreak</title>
+  <style>
+    /* Terminal styles */
+    body {
+      background-color: #002B36;
+      color: #839496;
+      font-family: monospace;
+    }
+
+    /* Terminal prompt styles */
+    .prompt {
+      color: #268BD2;
+    }
+
+    /* Terminal input styles */
+    input {
+      background-color: #073642;
+      color: #839496;
+      border: none;
+      padding: 0.5em;
+      font-family: monospace;
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <h1>bvfreak@website:~</h1>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main>
-    <h2 id="about">About</h2>
-    <p>This is the about section of my website. Here you can learn more about what I do.</p>
-
-    <h2 id="services">Services</h2>
-    <p>This is the services section of my website. Here you can find out about the different things I offer.</p>
-    <ul>
-        <li>Service 1</li>
-        <li>Service 2</li>
-        <li>Service 3</li>
-    </ul>
-
-    <h2 id="contact">Contact</h2>
-    <p>If you want to contact me, you can reach me at email@bvfreak.com.</p>
-    <img src="image.jpg" alt="image of my work">
-  </main>
-
-  <footer>
-    <p>Copyright ©2023 BVFreak</p>
-  </footer>
+  <div class="prompt">user@website:~$</div>
+  <input type="text" placeholder="Enter a command">
 </body>
 </html>
