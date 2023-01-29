@@ -1,39 +1,45 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title>BVFreak</title>
-  <style>
-    /* Terminal styles */
-    body {
-      background-color: #002B36;
-      color: #839496;
-      font-family: monospace;
-    }
+    <title>Retro Terminal</title>
+    <style>
+        /* Set the background color to black */
+        body {
+            background-color: black;
+        }
 
-    /* Terminal prompt styles */
-    .prompt {
-      color: #268BD2;
-    }
+        /* Set the font style for the terminal text */
+        pre {
+            font-family: 'Courier New', monospace;
+            color: #00ff00; /* Green text color */
+            padding: 20px;
+            margin: 0;
+        }
 
-    /* Terminal input styles */
-    input {
-      background-color: #073642;
-      color: #839496;
-      border: none;
-      padding: 0.5em;
-      font-family: monospace;
-    }
-    button {
-      background-color: #073642;
-      color: #839496;
-      padding: 0.5em;
-      font-family: monospace;
-    }
-  </style>
+        /* Set the pixel art background image */
+        .pixel-art {
+            background-image: url('pixel-art.png');
+            background-size: cover;
+            height: 100vh;
+            width: 100%;
+        }
+
+        /* Add a neon glow effect to the text */
+        ::selection {
+            background: rgba(255, 255, 255, 0.5);
+        }
+    </style>
 </head>
+
 <body>
-  <div class="prompt">user@website:~$</div><input type="text" placeholder="Enter a command">
-  <\n>
-  <iframe src="https://discord.com/widget?id=1048399571606323290&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+    <div class="pixel-art">
+        <pre>
+            Retro Terminal
+            --------------
+            >_
+        </pre>
+    </div>
 </body>
+
 </html>
