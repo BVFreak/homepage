@@ -5,40 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>BVFREAK</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <style>
-      .snow {
-        position: absolute;
-        min-width: 100vw;
-        min-height: 100vh;
-        height: 100%;
-        width: 100%;
-        top: 0;
-        left: 0;
-      }
-
-      .snow .svg {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-      }
-
-      #snow-top-layer {
-        will-change: transform;
-        transform: translateY(-768px);
-        animation: fall 22.5s infinite linear;
-      }
-
-      #snow-bottom-layer {
-        will-change: transform;
-        transform: translateY(-768px);
-        animation: fall 45s infinite linear;
-      }
-
-      @keyframes fall {
-        100% {
-          transform: translateY(0);
-        }
-    </style>
   </head>
   <body>
     <div class="snow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 750" preserveAspectRatio="xMidYMax slice">
