@@ -2,7 +2,7 @@ let xspacing = 16; // Distance between each horizontal location
 let w; // Width of entire wave
 let theta = 0.0; // Start angle at 0
 let amplitude = 75.0; // Height of wave
-let period = 500.0; // How many pixels before the wave repeats
+let frequency = 500.0; // How many pixels before the wave repeats
 let dx; // Value for incrementing x
 let yvalues; // Using an array to store height values for the wave
 
