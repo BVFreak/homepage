@@ -13,6 +13,10 @@ function setup() {
   yvalues = new Array(floor(w / xspacing));
 }
 
+var changeF = ()=>{
+    frequency = document.getElementById("myFrequency").value;
+}
+
 function draw() {
   background(0);
   calcWave();
